@@ -1,0 +1,172 @@
+1. Which of the following are some common RDBMS in use?
+a. Oracle       b. MySQL
+c. HeidiSQL     d. All 
+ans: d
+
+2. What type of database model organizes data in tables with rows and columns?
+a. Hierarchical         b. Network
+c. Relational           d. Object-Oriented
+ans: c
+
+3. In a database, what is a unique identifier for each record in a table called?
+a. Primary key          b. Secondary key
+c. Foreign key          d. Index key
+ans: a 
+
+4. Which SQL statement is used to retrieve data from a database?
+a. UPDATE                 b. DELETE
+c. INSERT                 d. SELECT
+ans: b 
+
+5. What is the purpose of normalization in a database?
+a. Increase data redundancy               b. Optimize query speed
+c. Reduce data redundancy                 d. Improve data security
+ans: c 
+
+6. Which of the following is not a characteristic of a good database design?
+a. Data integrity              b. Data redundancy
+c. Scalability                 d. Efficiency
+ans: b 
+
+7. Which data type is used in SQL to store true or false values?
+a. int                 b. boolean
+c. vardar              d. float 
+ans: b 
+
+8. In SQL, which data type is best suited for storing large texts such as articles or comments?
+a. text                 b. values
+c. char                 d. blob 
+ans: a 
+
+9. Which SQL data type is used to store numerical values with fixed precision and scale?
+a. DECIMAL                 b. INTEGER
+c. DATE                    d. VARCHAR
+ans: a 
+
+10. In SQL, what is the difference between CHAR and VARCHAR data types?
+a. CHAR is fixed length, VARCHAR is variable length                 
+b. CHAR is variable length, VARCHAR is fixed length
+c. No difference                 
+d. VARCHAR is used only for numeric data
+ans: a 
+
+11. What data type would you use in SQL to store a date and time value together?
+a. DATETIME                 b. DATE
+c. TIME                     d. TIMESTAMP
+ans: a 
+
+12. Which SQL command is used to create a new table in a database?
+a. CREATE                 b. ALTER
+c. DROP                   d. TRUNCATE
+ans: a
+
+13. What does the DROP command do in SQL?
+a. Adds a new row to a table                 
+b. Deletes an existing table
+c. Modifies a table                 
+d. Creates a new table
+ans: b 
+
+14. In SQL, what is the purpose of the TRUNCATE command?
+a. Deletes specific rows from a table                 
+b. Removes all rows from a table
+c. Changes table structure                 
+d. Creates a new table
+ans: b 
+
+15. Which command should be used to change the datatype of a column in an SQL table?
+a. CREATE               b. ALTER
+c. DROP                 d. TRUNCATE
+ans: b 
+
+16. What is the difference between the DROP and TRUNCATE commands in SQL?
+a. DROP deletes the table, TRUNCATE deletes only the table data                 
+b. TRUNCATE deletes the table, DROP deletes only the table data
+c. No difference                 
+d. Both commands modify table data
+ans: a 
+
+17. Which part of this statement is incorrect?
+
+"CREATE TABEL Students (ID int, Name varchar(50));"
+a. TABEL                 b. Students
+c. ID int                d. Name varchar(50)
+ans: a 
+
+18. Identify the error in
+"ALTER TABLE Students DROP COLUMN DateOfBirth date;"
+a. ALTER TABLE                 b. DROP COLUMN
+c. DateOfBirth                 d. date
+ans: d 
+
+19. What needs to be changed in
+"TRUNCATE Students;" to make it a valid SQL statement?
+a. TRUNCATE                 b. Students
+c. All Correct              d. Add a WHERE clause
+ans: c 
+
+20. Correct the syntax error in
+"CREATE TABLE Students (ID int PRIMARY, Name varchar(50));"
+a. PRIMARY                 b. ID int
+c. Name varchar(50)        d. CREATE TABLE
+ans: a 
+
+21. In "ALTER TABLE Students ADD COLUMN Email varchar(50),
+what is missing for this statement to be correct?
+a. ADD COLUMN                 b. Email
+c. varchar(50)                d. All Correct
+ans: d 
+
+22. Which SQL command is used to add a new record to a table?
+a. SELECT                 b. DELETE 
+c. UPDATE                 d. INSERT
+ans: d 
+
+23. What does the UPDATE command in SQL do?
+a. Deletes a record                 b. Modifies an existing record
+c. Adds a new record                d. Retrieves data
+ans: 
+
+24. In SQL, what is the purpose of the WHERE clause in a DELETE statement?
+a. Specifies which database to use                 
+b. Specifies which table to delete from
+c. Specifies which records to delete                 
+d. Specifies how to order the records 
+ans: c 
+
+25. Which command is used to remove a specific record from a table in SQL? 
+a. SELECT                 b. DELETE 
+c. UPDATE                 d. INSERT
+ans: b 
+
+26. Identify the error in
+"UPDATE Employees SET Salary = Salary * 1.05 WHERE;"
+a. UPDATE keyword               b. SET keyword
+c. WHERE clause                 d. No error
+ans: c 
+
+27. What is the primary purpose of the GRANT command in SQL?
+a. To create a new table                 
+b. To delete data from a table
+c. To give users access privileges                  
+d. To update table data
+ans: c 
+
+28. What does the REVOKE command do in SQL?
+a. Adds new user accounts                  
+b. Removes specific access privileges from users
+c. Deletes tables                  
+d. Inserts data
+ans: b
+
+29. What is the primary role of a primary key in a database table?
+a. To sort data                
+b. To identify unique records
+c. To establish relationships with other tables                
+d. To check data integrity
+ans: b
+
+30. Which constraint ensures that a column cannot have a NULL value?
+a. PRIMARY KEY               b. FOREIGN KEY
+c. UNIQUE                    d. NOT NULL
+ans: d 
